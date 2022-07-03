@@ -155,7 +155,7 @@
         align-items: center;
         width: 100%;
         height: 500px;
-        background-image: url("/HTML:CSS/IMAGES/use.jpg");
+        background-image: url("./IMAGES/use.jpg");
         background-size: 70%;
         background-position-x: right;
         background-position-y: center;
@@ -318,7 +318,7 @@
     
     .fbks {
         width: 100%;
-        background-image: url('/HTML:CSS/IMAGES/victoria-kubiaki-t0Aio60jD4Q-unsplash2.jpg');
+        background-image: url('./IMAGES/victoria-kubiaki-t0Aio60jD4Q-unsplash2.jpg');
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
@@ -781,7 +781,7 @@
             height: 300px;
             display: flex;
             align-items: center;
-            background-image: url("/HTML:CSS/IMAGES/use.jpg");
+            background-image: url("./IMAGES/use.jpg");
             background-size: cover;
         }
 
@@ -833,7 +833,7 @@
 
         .whyus{
             flex-direction: column;
-            background-image: url("/HTML:CSS/IMAGES/delivery-man-smiling-and-holding-cardboard-box2.jpg");
+            background-image: url("./IMAGES/delivery-man-smiling-and-holding-cardboard-box2.jpg");
             background-position: center;
             background-size: cover;
             padding: 20px;
@@ -843,7 +843,7 @@
 
         .aboutus{
             flex-direction: column;
-            background-image: url("/HTML:CSS/IMAGES/jonas-kakaroto-KIPqvvTOC1s-unsplash2.jpg");
+            background-image: url("./IMAGES/jonas-kakaroto-KIPqvvTOC1s-unsplash2.jpg");
             background-position: center;
             background-size: cover;
             padding: 20px;
@@ -1014,7 +1014,7 @@
             height: 300px;
             display: flex;
             align-items: center;
-            background-image: url("/HTML:CSS/IMAGES/use.jpg");
+            background-image: url("./IMAGES/use.jpg");
         }
 
         .intro{
@@ -1065,7 +1065,7 @@
 
         .whyus{
             flex-direction: column;
-            background-image: url("/HTML:CSS/IMAGES/delivery-man-smiling-and-holding-cardboard-box2.jpg");
+            background-image: url("./IMAGES/delivery-man-smiling-and-holding-cardboard-box2.jpg");
             background-position: center;
             background-size: cover;
             padding: 20px;
@@ -1074,7 +1074,7 @@
 
         .aboutus{
             flex-direction: column;
-            background-image: url("/HTML:CSS/IMAGES/jonas-kakaroto-KIPqvvTOC1s-unsplash2.jpg");
+            background-image: url("./IMAGES/jonas-kakaroto-KIPqvvTOC1s-unsplash2.jpg");
             background-position: center;
             background-size: cover;
             padding: 20px;
@@ -1266,7 +1266,7 @@
             height: 400px;
             display: flex;
             align-items: center;
-            background-image: url("/HTML:CSS/IMAGES/use.jpg");
+            background-image: url("./IMAGES/use.jpg");
         }
 
         .intro{
@@ -1300,7 +1300,7 @@
 
         .whyus{
             flex-direction: column;
-            background-image: url("/HTML:CSS/IMAGES/delivery-man-smiling-and-holding-cardboard-box2.jpg");
+            background-image: url("./IMAGES/delivery-man-smiling-and-holding-cardboard-box2.jpg");
             background-position: center;
             background-size: cover;
             padding: 20px;
@@ -1309,7 +1309,7 @@
 
         .aboutus{
             flex-direction: column;
-            background-image: url("/HTML:CSS/IMAGES/jonas-kakaroto-KIPqvvTOC1s-unsplash2.jpg");
+            background-image: url("./IMAGES/jonas-kakaroto-KIPqvvTOC1s-unsplash2.jpg");
             background-position: center;
             background-size: cover;
             padding: 20px;
