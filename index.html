@@ -357,10 +357,8 @@
             });
         });
 
+        let menu = document.getElementById("mennn");
         const showMenu = () => {
-            let menu = document.getElementById("mennn");
-            
-
             if(menu.style.display === "none"){
                 menu.style.display = "flex"
                 setTimeout(()=>{
@@ -382,10 +380,26 @@
             }
         }
         
-        if(screen.availWidth <= 475){
+        if(screen.width <= 475){
             document.getElementById("mennn").style.display = "none"
             document.getElementById("menu").addEventListener("click", showMenu )
         }
+
+        //Pefecting Responsiveness
+        window.addEventListener("resize", (e)=>{
+            if(screen.width > 475){
+            document.getElementById("mennn").style.display = "flex"
+            menu.style.opacity = "1"
+                menu.style.backgroundColor = ""
+                menu.style.marginTop = ""
+                menu.style.position = ""
+            }
+            else{
+                document.getElementById("mennn").style.display = "none"
+            }
+        })
+        
+        
        
     </script>
 </body>
