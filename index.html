@@ -71,7 +71,8 @@
                         <li><span><img class="micon" src="./IMAGES/information.png" alt="icon"><span>About</span></span>
                             <hr class="menuline">
                         </li>
-                        <li><span><img class="micon" src="./IMAGES/support.png" alt="icon"><span>Contact Us</span></span>
+                        <li><span><img class="micon" src="./IMAGES/support.png" alt="icon"><span>Contact
+                                    Us</span></span>
                             <hr class="menuline">
                         </li>
                     </ul>
@@ -142,12 +143,14 @@
                 <div class="wtext ">
                     <h2 class="why"><span style="color: rgba(0, 0, 0, 0.466); "> Why </span>MLX Logistics?</h2>
                     <p>Aber ich muss dir sagen, dass ich jetzt in den USA bin und seit zwei Jahren hier bei meiner Tante
-                        lebe, seit meine Mutter mich sagen hörte, ich sei schwul. 
-                    <p class="">Ich komme ursprünglich aus Frankfurt
-                        und habe 3 Brüder und ich bin der jüngste.
-                        Bitte lassen Sie mich wissen, ob Sie mit der Entfernung in der Zwischenzeit einverstanden sind</p>
+                        lebe, seit meine Mutter mich sagen hörte, ich sei schwul.
+                        <p class="">Ich komme ursprünglich aus Frankfurt
+                            und habe 3 Brüder und ich bin der jüngste.
+                            Bitte lassen Sie mich wissen, ob Sie mit der Entfernung in der Zwischenzeit einverstanden
+                            sind</p>
                     </p><br>
-                    <p class="ex">Aber ich muss dir sagen, dass ich jetzt in den USA bin und seit zwei Jahren hier bei meiner Tante
+                    <p class="ex">Aber ich muss dir sagen, dass ich jetzt in den USA bin und seit zwei Jahren hier bei
+                        meiner Tante
                         lebe, seit meine Mutter mich sagen hörte, ich sei schwul.</p><br>
                 </div>
                 <div class="wimg ">
@@ -359,48 +362,44 @@
 
         let menu = document.getElementById("mennn");
         const showMenu = () => {
-            if(menu.style.display === "none"){
+            if (menu.style.display === "none") {
                 menu.style.display = "flex"
-                setTimeout(()=>{
+                setTimeout(() => {
                     menu.style.opacity = "1";
-                menu.style.backgroundColor = "white"
-                menu.style.marginTop = "80px"
-                menu.style.position = "absolute"
-                menu.style.transition = ".3s ease-out"
-                },1)
-            }else{
+                    menu.style.backgroundColor = "white"
+                    menu.style.marginTop = "80px"
+                    menu.style.position = "absolute"
+                    menu.style.transition = ".3s ease-out"
+                }, 1)
+            } else {
                 menu.style.opacity = "0";
                 menu.style.backgroundColor = "white"
                 menu.style.marginTop = "50px"
                 menu.style.position = "absolute"
                 menu.style.transition = ".15s ease-out"
-                setTimeout(()=>{
+                setTimeout(() => {
                     menu.style.display = "none"
-                },200)
+                }, 200)
             }
         }
-        
-        if(screen.width <= 475){
+
+        if (screen.width <= 475) {
             document.getElementById("mennn").style.display = "none"
-            document.getElementById("menu").addEventListener("click", showMenu )
+            document.getElementById("menu").addEventListener("click", showMenu)
         }
 
         //Pefecting Responsiveness
-        window.addEventListener("resize", (e)=>{
-            if(screen.width > 475){
-            document.getElementById("mennn").style.display = "flex"
-            menu.style.opacity = "1"
+        window.addEventListener("resize", (e) => {
+            if (screen.width > 475) {
+                document.getElementById("mennn").style.display = "flex"
+                menu.style.opacity = "1"
                 menu.style.backgroundColor = ""
                 menu.style.marginTop = ""
                 menu.style.position = ""
-            }
-            else{
+            } else {
                 document.getElementById("mennn").style.display = "none"
             }
         })
-        
-        
-       
     </script>
 </body>
 
